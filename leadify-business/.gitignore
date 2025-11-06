@@ -1,0 +1,14 @@
+# Dependências
+node_modules/
+npm-debug.log*
+
+# Arquivos compilados
+assets/dist/
+
+# Ambiente
+.env
+.DS_Store
+
+# WordPress
+wp-config.php
+*.sql

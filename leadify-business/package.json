@@ -1,0 +1,19 @@
+{
+  "name": "leadify-business",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/tailwindcss/lib/cli.js -i ./assets/src/css/input.css -o ./assets/dist/css/output.css --watch",
+    "build": "node ./node_modules/tailwindcss/lib/cli.js -i ./assets/src/css/input.css -o ./assets/dist/css/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}
